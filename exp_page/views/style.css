@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+}
+
+video {
+    width: 600px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.button-container {
+    .button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
