@@ -7,12 +7,15 @@ video {
     height: auto;
 }
 
-.button-container {
-    .button-container {
+.button-container-reactants {
     display: flex;
     justify-content: flex-start;
     margin-top: 20px;
 }
+.button-container-added {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
 }
 
 .button {
@@ -22,4 +25,16 @@ video {
     color: white;
     border: none;
     cursor: pointer;
+}
+.shake-button {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+/* .shake-button {
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Use cubic-bezier for smoother animation 
+} */
+.shake-button.shaking {
+    transform: translateX(-100px);
+    
 }
