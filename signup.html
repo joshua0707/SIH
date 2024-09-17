@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Virtual Chemistry Lab</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="active">Home</a>
+            <!-- Other left-side links here -->
+        </div>
+       
+    </div>
+    
+
+    <div class="signup-container">
+        <header>
+            <h1>Virtual Chemistry Lab Sign Up</h1>
+        </header>
+        
+        <div class="signup-form">
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="school">School Name:</label>
+                    <input type="text" id="school" name="school" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="board">Board:</label>
+                    <select id="board" name="board" required>
+                        <option value="" disabled selected>Select your Board</option>
+                        <option value="icse">ICSE</option>
+                        <option value="cbse">CBSE</option>
+                        <option value="ssc">SSC</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="grade">Grade:</label>
+                    <input type="text" id="grade" name="grade" required>
+                </div>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>

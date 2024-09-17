@@ -1,0 +1,264 @@
+/* Basic styling for body */
+body {
+    font-family: 'Baloo 2', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Styling for the navbar */
+.navbar {
+    background-color: #00bcd4;
+    overflow: hidden;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 15px; /* Reduced gap */
+}
+
+.nav-left a, .nav-right a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px; /* Further reduced padding */
+    text-decoration: none;
+    font-size: 12px; /* Further reduced font size */
+    font-family: 'Fredoka One', cursive, sans-serif; /* Restored font family */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    background-color: #0097a7;
+    color: white;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Add a playful underline effect */
+.nav-left a::before, .nav-right a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px; /* Reduced underline height */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff9800;
+    transition: width 0.3s ease;
+}
+
+.nav-left a:hover::before, .nav-right a:hover::before {
+    width: 100%;
+}
+
+.nav-left a.active {
+    background-color: #006064;
+    color: white;
+}
+
+/* Styling for the website name */
+.website-name {
+    text-align: center;
+    padding: 15px; /* Reduced padding */
+    background-color: #ffeb3b;
+    color: #212121;
+    border-bottom: 3px solid #ff9800; /* Reduced border width */
+    position: relative;
+    animation: slideIn 1s ease-out; /* Slide in animation */
+}
+
+.website-name h1 {
+    margin: 0;
+    font-size: 2em; /* Further reduced font size */
+    font-family: 'Fredoka One', cursive, sans-serif; /* Restored font family */
+    letter-spacing: 1px; /* Reduced letter spacing */
+    display: inline-flex;
+    align-items: center;
+}
+
+.website-name p {
+    font-size: 1em; /* Reduced font size */
+    margin: 5px 0 0;
+    font-family: 'Baloo 2', cursive, sans-serif; /* Restored font family */
+}
+
+/* Styling for the logo next to the website name */
+.logo {
+    width: 25px; /* Further reduced logo size */
+    height: 25px; /* Further reduced logo size */
+    margin-right: 10px; /* Reduced margin */
+}
+
+/* Container for student details and experiments */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    padding: 20px;
+    gap: 20px; /* Added gap to ensure spacing between sections */
+    align-items: center; /* Center-align container items */
+}
+
+/* Styling for the student details section */
+.student-details {
+    background-color: #ffffff;
+    padding: 20px; /* Increased padding for better spacing */
+    width: 100%; /* Full width on small screens */
+    max-width: 400px; /* Adjusted max-width */
+    border: 2px solid #ff9800; /* Reduced border width */
+    border-radius: 8px; /* Reduced border radius */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: popUp 0.5s ease-out forwards; /* Pop-up effect on load */
+}
+
+.student-details h2 {
+    font-family: 'Fredoka One', cursive, sans-serif; /* Restored font family */
+    color: #00bcd4;
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 1.2em; /* Reduced font size */
+}
+
+.student-details label {
+    display: block;
+    font-size: 0.9em; /* Further reduced font size */
+    margin-bottom: 5px; /* Reduced margin */
+    color: #333;
+}
+
+.student-details select {
+    font-family: 'Baloo 2', cursive, sans-serif; /* Restored font family */
+    font-size: 0.8em; /* Further reduced font size */
+    padding: 4px; /* Further reduced padding */
+    width: 100%; /* Made wider */
+    max-width: 180px; /* Limited maximum width */
+    margin-bottom: 10px; /* Reduced margin */
+    border-radius: 6px; /* Reduced border radius */
+    border: 2px solid #ddd;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-details button {
+    font-family: 'Baloo 2', cursive, sans-serif; /* Restored font family */
+    background-color: #00bcd4;
+    color: white;
+    padding: 6px 12px; /* Reduced padding */
+    border: none;
+    border-radius: 6px; /* Reduced border radius */
+    font-size: 0.8em; /* Further reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-details button:hover {
+    background-color: #0097a7;
+}
+
+/* Styling for the experiments section */
+.experiments {
+    width: 100%; /* Full width on small screens */
+    max-width: none; /* Remove max-width */
+    background-color: #ffffff;
+    padding: 10px; /* Reduced padding */
+    border: 2px solid #00bcd4; /* Reduced border width */
+    border-radius: 8px; /* Reduced border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: slideInFromRight 0.7s ease-out; /* Slide in from right animation */
+}
+
+.experiments h2 {
+    font-family: 'Fredoka One', cursive, sans-serif; /* Restored font family */
+    color: #00bcd4;
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 1.2em; /* Further reduced font size */
+}
+
+.experiment-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Reduced gap */
+}
+
+.experiment-item {
+    background-color: #ffffff;
+    padding: 10px; /* Reduced padding */
+    border-radius: 6px; /* Reduced border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiment-item img {
+    width: 100%;
+    max-width: 150px; /* Reduced max-width */
+    border-radius: 6px; /* Reduced border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experiment-item p {
+    font-size: 0.8em; /* Reduced font size */
+    color: #555;
+    margin-top: 5px; /* Reduced margin */
+}
+
+/* Hide the motivational message section */
+.motivational-message {
+    display: none;
+}
+
+/* Animation for pop-up effect */
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Animation for slide-in effect */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation for slide-in-from-right effect */
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Styling for the footer */
+.footer {
+    background-color: #00bcd4; /* Matching navbar color for consistency */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center align text */
+    padding: 15px 20px; /* Added padding for space */
+    border-top: 2px solid #ff9800; /* Added top border for separation */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Full width */
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}

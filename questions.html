@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question - Virtual Chemistry Lab</title>
+    <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+    <div class="questions-container">
+        <header>
+            <h1>Ask a Question</h1>
+        </header>
+        
+        <div class="question-form">
+            <textarea id="queryBox" placeholder="Type your query here..." rows="5"></textarea>
+            <button id="submitQuery">Submit</button>
+        </div>
+
+        <!-- Chat bot button -->
+        <div class="chatbot-button" onclick="openChatBot()">
+            Chat with Bot
+        </div>
+
+        <!-- Chat bot window (hidden initially) -->
+        <div id="chatbotWindow" class="chatbot-window">
+            <p>Chat bot coming soon...</p>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+</body>
+</html>

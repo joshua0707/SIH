@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Virtual Chemistry Lab</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="active">Home</a>
+            <!-- Other left-side links here -->
+        </div>
+
+
+    <div class="login-container">
+        <header>
+            <h1>Virtual Chemistry Lab Login</h1>
+        </header>
+        
+        <div class="login-form">
+            <h2>Login as:</h2>
+            <div class="role-selection">
+                <button class="role-btn" onclick="selectRole('student')">Student</button>
+                <button class="role-btn" onclick="selectRole('teacher')">Teacher</button>
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginId">Login ID:</label>
+                    <input type="text" id="loginId" name="loginId" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit">Login</button>
+                
+                <div id="role-message"></div>
+            </form>
+            
+            <div class="signup">
+                <p>Don't have an account? <button onclick="signUp()"><a href="signup.html">signUp</a></button></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

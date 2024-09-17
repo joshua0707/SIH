@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayogshala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#home" class="active">Home</a>
+            <a href="./questions.html">Doubts</a>
+            <a href="#experiments">Experiments</a>
+        </div>
+        <div class="nav-right">
+            <a href="./login.html">Login</a>
+            <a href="./signup.html">signup</a>
+        </div>
+    </div>
+
+    <div class="website-name">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Prayogshala</h1>
+        <p>Explore the World of Chemistry</p>
+    </div>
+
+    <div class="container">
+        <div class="student-details">
+            <h2>Select Your Standard and Board</h2>
+            <label for="standard">Standard:</label>
+            <select id="standard">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+
+            <label for="board">Board:</label>
+            <select id="board">
+                <option value="icse">ICSE</option>
+                <option value="cbse">CBSE</option>
+                <option value="ssc">SSC</option>
+            </select>
+
+            <button  type="button"><a href="./chapters.html">Submit</a></button>
+        </div>
+
+        <div class="experiments">
+            <h2>Explore Some Sample Experiments</h2>
+            <div class="experiment-gallery">
+                <div class="experiment-item">
+                    <img src="experiment1.jpg" alt="Experiment 1">
+                    <p>Acid Vinegar experiment</p>
+                </div>
+                <div class="experiment-item">
+                    <img src="experiment2.jpg" alt="Experiment 2">
+                    <p>Experiment 2</p>
+                </div>
+                <div class="experiment-item">
+                    <img src="experiment3.jpg" alt="Experiment 3">
+                    <p>Experiment 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>  © 2024 Prayogshala. All rights reserved. Designed with ♥ by Team Prayogshala</p>
+    </div>
+
+
+<script src="login.js" charset="utf-8"></script>
+<script src="signup.js" charset="utf-8"></script>
+</body>
+</html>
