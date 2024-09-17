@@ -18,15 +18,17 @@ let correctButtonsClicked = 0;
 let lastClickedButtons = [];
 
 function checkForCorrectClicks() {
-    if (correctButtonsClicked === 2) {
-        alert('You clicked the correct buttons!');
+    if (correctButtonsClicked === 2 && lastClickedButtons[0].classList.contains('correct') && lastClickedButtons[1].classList.contains('correct')) {
+        // alert('You clicked the correct buttons!');
+        const myVideo = document.getElementById('expt1');
+        myVideo.play();
         correctButtonsClicked = 0;
         lastClickedButtons = []; // Clear the last clicked buttons array
         checkForCorrectClicks(); // Trigger another check immediately
     }
 }
 
-const checkInterval = setInterval(checkForCorrectClicks, 100); // Check every 100 milliseconds
+const checkInterval = setInterval(checkForCorrectClicks, 10); // Check every 100 milliseconds
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -39,4 +41,8 @@ buttons.forEach(button => {
             checkForCorrectClicks(); // Trigger the check immediately
         }
     });
+});
+
+document.getElementById("tick").addEventListener("click", function() {
+    alert("You clicked the button!");
 });

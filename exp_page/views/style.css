@@ -1,40 +1,54 @@
 .container {
+    position: relative;
     text-align: center;
+    margin-top: 150px;
+}
+.head{
+    background-color:yellow;
+    padding: 10px ;
+    padding-left: 30%;
 }
 
 video {
-    width: 600px; /* Adjust the width as needed */
+    width: 600px; 
     height: auto;
 }
 
-.button-container-reactants {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
+.button-container1 {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+   top: 0;
+    left: 340px;
+    gap: 25px;
+    cursor: pointer;
+    
 }
-.button-container-added {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+.button-container2{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    top: 0px;
+    right: 350px;
+    gap: 25px;
+    cursor: pointer;
 }
-
-.button {
+.button { 
     width: 100px;
     height: 100px;
-    background-color: #333;
-    color: white;
+    display: flex;
+    gap: 40px;
+    cursor: pointer; 
     border: none;
-    cursor: pointer;
+   background-color: white;
 }
-.shake-button {
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-/* .shake-button {
-    cursor: pointer;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Use cubic-bezier for smoother animation 
-} */
-.shake-button.shaking {
-    transform: translateX(-100px);
+.image{
+    width: 100px;
+    height: 100px;
     
+}
+
+.foot 
+{
+    background-color: #ff9800;
 }
