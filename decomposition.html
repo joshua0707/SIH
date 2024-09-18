@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Chemistry Lab</title>
+    <link rel="stylesheet" href="displacement.css">
+</head>
+<body>
+    <!-- Page Title -->
+    <header class="lab-title">
+        <!-- Buttons Row in Header -->
+        <div class="button-row">
+            <button id="backButton">Back</button>
+            <button id="homeButton">Home</button>
+            <h1>Virtual Chemistry Lab</h1>
+            <button id="reportProblemButton">Report Problem</button>
+            <button id="faqButton">FAQ</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="column">
+            <button class="chemical-button chemical-1">
+                <img src="images/salt.jpg" alt="Chemical 1" width="80px">
+                <span class="text">Silver Chloride</span>
+            </button>
+            <button class="chemical-button chemical-2">
+                <img src="images/chemical2.png" alt="Chemical 2" width="80px">
+                <span class="text">Ferrous Sulphate</span>
+            </button>
+            <button class="chemical-button chemical-3">
+                <img src="images/chemical3.png" alt="Chemical 3" width="80px">
+                <span class="text">Potassium Chloride</span>
+            </button>
+        </div>
+        <div id="reactionPane">
+            <video id="reactionVideo" controls></video>
+            <p id="errorMessage">Invalid combination!</p>
+        </div>
+        <div class="column">
+            <button class="reagent-button reagent-1">
+                <img src="images/sunlight.jpg" alt="Reagent 1" width="80px">
+                <span class="text">Sunlight</span>
+            </button>
+            <button class="reagent-button reagent-2">
+                <img src="images/reagent2.png" alt="Reagent 2" width="80px">
+                <span class="text">Copper</span>
+            </button>
+            <button class="reagent-button reagent-3">
+                <img src="images/reagent3.png" alt="Reagent 3" width="80px">
+                <span class="text">Silver</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="decomposition.js"></script>
+</body>
+</html>
