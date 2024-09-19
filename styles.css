@@ -66,7 +66,7 @@ body {
 /* Styling for the website name */
 .website-name {
     text-align: center;
-    padding: 15px; /* Reduced padding */
+    padding: 18px; /* Reduced padding */
     background-color: #ffeb3b;
     color: #212121;
     border-bottom: 3px solid #ff9800; /* Reduced border width */
@@ -91,9 +91,9 @@ body {
 
 /* Styling for the logo next to the website name */
 .logo {
-    width: 25px; /* Further reduced logo size */
-    height: 25px; /* Further reduced logo size */
-    margin-right: 10px; /* Reduced margin */
+    width: 50px; /* Further reduced logo size */
+    height: 50px; /* Further reduced logo size */
+    margin-right: 10px;
 }
 
 /* Container for student details and experiments */
@@ -262,3 +262,8 @@ body {
     width: 100%; /* Full width */
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
+ .navbar{
+    display: flex;
+    position: sticky;
+
+} 

@@ -1,0 +1,302 @@
+.desktop-1-child {
+    position: absolute;
+    top: 38px;
+    left: 453px;
+    border-radius: 80px;
+    background-color: #000;
+    border: 1px solid #171516                     
+    box-sizing border-box;
+    width: 1078px;
+    height: 84px;
+    display: flex;
+  left: 200px;
+
+}
+.about-us {
+    position: absolute;
+    top: 190px;
+    left: 805px;
+    font-size: 64px;
+    font-weight: 900;
+    display: flex;
+    left: 40%;
+  
+}
+.our-vision {
+    margin: 0;
+    font-size: 48px;
+}
+.blank-line {
+    margin: 0;
+}
+.making-high-quality-experiment {
+    margin-bottom: 0px;
+}
+.transforming-the-way-chemistry {
+    margin: 0;
+    font-family: inherit;
+    padding-left: 32px;
+}
+.our-vision-transforming-container {
+    position: absolute;
+    top: 1065px;
+    left: 93px;
+    display: inline-block;
+    font-weight: 900;
+    width: 784px;
+}
+.image-icon {
+    position: absolute;
+    top: 361px;
+    left: 110px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    left: 30px;
+}
+.image-icon1 {
+    position: absolute;
+    top: 932px;
+    left: 1007px;
+    border-radius: 45px;
+    width: 600px;
+    height: 410px;
+    object-fit: cover;
+    display: flex;
+    left: 59%;
+    
+}
+.image-icon2 {
+    position: absolute;
+    top: 1472px;
+    left: 49px;
+    border-radius: 36px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.our-team {
+    position: absolute;
+    top: 2124px;
+    left: 594px;
+    font-size: 96px;
+    font-weight: 900;
+ 
+}
+.image-icon3 {
+    position: absolute;
+    top: 2389px;
+    left: 1152px;
+    border-radius: 50%;
+    width: 274px;
+    height: 242px;
+    object-fit: cover;
+    display: flex;
+    left: 10px;
+}
+.image-icon4 {
+    position: absolute;
+    top: 2389px;
+    left: 433px;
+    border-radius: 50%;
+    width: 274px;
+    height: 262px;
+    object-fit: cover;
+    display: flex;
+    left: 40%;
+}
+.image-icon5 {
+    position: absolute;
+    top: 2409px;
+    left: 681px;
+    border-radius: 50%;
+    width: 274px;
+    height: 242px;
+    object-fit: cover;
+    display: flex;
+    left: 20%;
+}
+.image-icon6 {
+    position: absolute;
+    top: 2399px;
+    left: 920px;
+    border-radius: 50%;
+    width: 274px;
+    height: 242px;
+    object-fit: cover;
+    display: flex;
+    left: 60%;
+}
+.image-icon7 {
+    position: absolute;
+    top: 2389px;
+    left: 1391px;
+    border-radius: 50%;
+    width: 274px;
+    height: 242px;
+    object-fit: cover;
+    display: flex;
+    left: 80%;
+}
+.contact-us {
+    position: absolute;
+    top: 3048px;
+    left: 117px;
+    font-size: 64px;
+    display: inline-block;
+    font-weight: 900;
+    width: 378px;
+}
+.useful-links {
+    position: absolute;
+    top: 3048px;
+    left: 891px;
+    font-size: 64px;
+    font-weight: 900;
+}
+.prayogshalagmailcom-92234567 {
+    position: absolute;
+    top: 3207px;
+    left: 169px;
+    font-weight: 900;
+}
+.home-doubts-experiments-container {
+    position: absolute;
+    top: 3153px;
+    left: 936px;
+    font-size: 32px;
+    font-weight: 900;
+}
+.span {
+    font-size: 24px;
+}
+.democratizing-access-to {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+
+.our-mission-democratizing-container {
+    position: absolute;
+    top: 403px;
+    left: 958px;
+    display: inline-block;
+    font-weight:700;
+    width: 893px;
+    display: flex;
+    flex-direction: column;
+     left: 42%;
+
+}
+.forward-button-icon {
+    position: absolute;
+    top: 2464px;
+    left: 1706px;
+    width: 127px;
+    height: 111px;
+    object-fit: cover;
+}
+.who-we-are {
+    margin: 0;
+    font-size: 40px;
+    
+}
+.who-we-are-container {
+    position: absolute;
+    top: 1601px;
+    left: 899px;
+    display: inline-block;
+    font-weight: 900;
+    width: 897px;
+    display: flex;
+    flex-direction: column;
+    left: 45%;
+}
+.email {
+    position: absolute;
+    top: 3207px;
+    left: 84px;
+    width: 66px;
+    height: 33px;
+}
+.phone-icon {
+    position: absolute;
+    top: 3264px;
+    left: 98px;
+    width: 53px;
+    height: 41px;
+    object-fit: cover;
+}
+.email-icon {
+    position: absolute;
+    top: 3205px;
+    left: 85px;
+    width: 79px;
+    height: 43px;
+    object-fit: cover;
+}
+.expand-arrow-icon {
+    position: absolute;
+    top: 45px;
+    left: 1431px;
+    width: 66px;
+    height: 71px;
+    object-fit: cover;
+    display: flex;
+    left: 79%;
+}
+.facebook-icon {
+    position: absolute;
+    top: 3371px;
+    left: 124px;
+    width: 93px;
+    height: 62px;
+    object-fit: cover;
+}
+.instagram-circle-icon {
+    position: absolute;
+    top: 3366px;
+    left: 242px;
+    width: 87px;
+    height: 71px;
+    object-fit: cover;
+}
+.search-icon {
+    position: absolute;
+    top: 55px;
+    left: 475px;
+    width: 73px;
+    height: 58px;
+    object-fit: cover;
+    display: flex;
+    left: 250px;
+}
+.image-icon8 {
+    position: absolute;
+    top: 2409px;
+    left: 210px;
+    border-radius: 50%;
+    width: 274px;
+    height: 242px;
+    object-fit: cover;
+}
+.linkedin-icon {
+    position: absolute;
+    top: 3364px;
+    left: 354px;
+    width: 92px;
+    height: 76px;
+    object-fit: cover;
+}
+.desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #d9dd2f;
+    height: 4530px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}

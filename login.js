@@ -31,6 +31,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
 function signUp() {
-    alert('Redirecting to the sign-up page!');
+    // alert('Redirecting to the sign-up page!');
     // Implement redirection logic here
 }

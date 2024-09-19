@@ -78,9 +78,9 @@ border: 1px solid black;
 }
 
 
-.experiment select:hover {
+ .experiment select:hover {
     border-color: #2980b9;
-}
+} 
 x
 .experiment select:focus {
     border-color: #3498db;
@@ -101,5 +101,14 @@ x
         font-size: 14px;
         padding: 10px;
     }
+
+}
+.button_exp{
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    margin-left: 80%;
+    margin-top: 50px;
+    padding: 8px;
 
 }
