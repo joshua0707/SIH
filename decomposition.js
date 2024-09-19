@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     successMessage.textContent = `Reaction successful! You have obtained Silver and Chlorine.`;
                     successMessage.style.display = 'block';
                 };
+                alert("Reaction successful! You have obtained Silver and Chlorine.");
             } else {
                 reactionVideo.style.display = 'none';
                 errorMessage.style.display = 'block';
