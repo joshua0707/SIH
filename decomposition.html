@@ -15,7 +15,7 @@
             <button id="homeButton"><a href="./index.html">Home</a></button>
             <h1>Virtual Chemistry Lab</h1>
             <button id="reportProblemButton">Report Problem</button>
-            <button id="faqButton">FAQ</button>
+            <button id="chatBotButton">Chatbot</button> <!-- New Chatbot Button -->
         </div>
     </header>
 
@@ -55,6 +55,23 @@
         </div>
     </div>
 
+    <div id="chatbotContainer" style="display:none; position: fixed; bottom: 10px; right: 10px; width: 400px; height: 500px; z-index: 1000; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <iframe id="chatbotIframe" src="https://console.dialogflow.com/api-client/demo/embedded/bc446d25-bb30-4723-900c-fe0d5639e3b8" width="100%" height="100%" style="border: none; border-radius: 10px;"></iframe>
+        <button id="closeChatBot" style="position: absolute; top: 5px; right: 5px; background-color: red; color: white; border: none; border-radius: 50%; padding: 5px; cursor: pointer;">X</button>
+    </div>
+
     <script src="decomposition.js"></script>
+    <script>
+        // Toggle Chatbot Display
+        document.getElementById('chatBotButton').addEventListener('click', function() {
+            var chatbotContainer = document.getElementById('chatbotContainer');
+            chatbotContainer.style.display = chatbotContainer.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Close Chatbot Button
+        document.getElementById('closeChatBot').addEventListener('click', function() {
+            document.getElementById('chatbotContainer').style.display = 'none';
+        });
+    </script>
 </body>
 </html>
